@@ -1,0 +1,39 @@
+:root{
+    --size: 540px;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-color: saddlebrown;
+}
+
+.container{
+    display: grid;
+    background-color: white;
+    width: var(--size);
+    height: var(--size);
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    right: 30%;
+    margin: auto;
+}
+
+.reset{
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    top: 15%;
+    margin: auto;
+    left: 30%;
+    right: 30%;
+}
+
+.square{
+    background-color: white;
+}
+
+.blackbg{
+    background-color: black;
+}
